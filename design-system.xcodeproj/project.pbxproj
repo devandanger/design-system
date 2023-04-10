@@ -19,6 +19,7 @@
 		8A92957F29E397E4000F0E7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A92958129E397E5000F0E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A92958429E397E5000F0E7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A92958C29E3999E000F0E7C /* mightystrong-design-system */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "mightystrong-design-system"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		8A92957129E397E4000F0E7C = {
 			isa = PBXGroup;
 			children = (
+				8A92958B29E3999E000F0E7C /* Packages */,
 				8A92957C29E397E4000F0E7C /* Example */,
 				8A92957B29E397E4000F0E7C /* Products */,
 			);
@@ -65,6 +67,14 @@
 				8A92958429E397E5000F0E7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A92958B29E3999E000F0E7C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				8A92958C29E3999E000F0E7C /* mightystrong-design-system */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
