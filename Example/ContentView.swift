@@ -6,14 +6,15 @@
 //
 
 import SwiftUI
+import mightystrong_design_system
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("Hello There") {
+                
+            }
+            .buttonStyle(PrimaryButtonStyle())
         }
         .padding()
     }

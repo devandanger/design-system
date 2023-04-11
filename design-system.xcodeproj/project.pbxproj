@@ -19,7 +19,6 @@
 		8A92957F29E397E4000F0E7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A92958129E397E5000F0E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A92958429E397E5000F0E7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8A92958C29E3999E000F0E7C /* mightystrong-design-system */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "mightystrong-design-system"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +32,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A8DFA4F29E5117400078551 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8A8DFA5129E5117F00078551 /* Textfields */,
+				8A8DFA5029E5117A00078551 /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8A8DFA5029E5117A00078551 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		8A8DFA5129E5117F00078551 /* Textfields */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Textfields;
+			sourceTree = "<group>";
+		};
+		8A8DFA5329E511A900078551 /* DesignTokens */ = {
+			isa = PBXGroup;
+			children = (
+				8A8DFA5529E511B300078551 /* Colors */,
+				8A8DFA5429E511AF00078551 /* Text */,
+			);
+			path = DesignTokens;
+			sourceTree = "<group>";
+		};
+		8A8DFA5429E511AF00078551 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		8A8DFA5529E511B300078551 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		8A92957129E397E4000F0E7C = {
 			isa = PBXGroup;
 			children = (
+				8A8DFA5329E511A900078551 /* DesignTokens */,
+				8A8DFA4F29E5117400078551 /* Components */,
 				8A92958B29E3999E000F0E7C /* Packages */,
 				8A92957C29E397E4000F0E7C /* Example */,
 				8A92957B29E397E4000F0E7C /* Products */,
@@ -72,7 +119,6 @@
 		8A92958B29E3999E000F0E7C /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				8A92958C29E3999E000F0E7C /* mightystrong-design-system */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
