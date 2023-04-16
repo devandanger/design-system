@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import mightystrong_design_system
 
 struct ContentView: View {
     var body: some View {
@@ -14,7 +13,7 @@ struct ContentView: View {
             Button("Hello There") {
                 
             }
-            .buttonStyle(PrimaryButtonStyle())
+            .buttonStyle(PrimaryButton())
         }
         .padding()
     }

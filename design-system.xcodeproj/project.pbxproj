@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A8DFA5A29E5237800078551 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DFA5929E5237800078551 /* PrimaryButton.swift */; };
+		8A8DFA5F29E526AD00078551 /* OpenDyslexic-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A8DFA5B29E526AC00078551 /* OpenDyslexic-BoldItalic.otf */; };
+		8A8DFA6029E526AD00078551 /* OpenDyslexic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A8DFA5C29E526AC00078551 /* OpenDyslexic-Bold.otf */; };
+		8A8DFA6129E526AD00078551 /* OpenDyslexic-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A8DFA5D29E526AD00078551 /* OpenDyslexic-Italic.otf */; };
+		8A8DFA6229E526AD00078551 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A8DFA5E29E526AD00078551 /* OpenDyslexic-Regular.otf */; };
+		8A8DFA6529E52C5F00078551 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DFA6429E52C5F00078551 /* SecondaryButton.swift */; };
+		8A8DFA6729E5967C00078551 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DFA6629E5967C00078551 /* Input.swift */; };
+		8A8DFA6929E5C6A100078551 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DFA6829E5C6A100078551 /* MenuButton.swift */; };
+		8A8DFA6B29E89D4F00078551 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DFA6A29E89D4F00078551 /* Typography.swift */; };
 		8A92957E29E397E4000F0E7C /* design_systemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A92957D29E397E4000F0E7C /* design_systemApp.swift */; };
 		8A92958029E397E4000F0E7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A92957F29E397E4000F0E7C /* ContentView.swift */; };
 		8A92958229E397E5000F0E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A92958129E397E5000F0E7C /* Assets.xcassets */; };
@@ -14,6 +23,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A8DFA5929E5237800078551 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		8A8DFA5B29E526AC00078551 /* OpenDyslexic-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-BoldItalic.otf"; sourceTree = "<group>"; };
+		8A8DFA5C29E526AC00078551 /* OpenDyslexic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Bold.otf"; sourceTree = "<group>"; };
+		8A8DFA5D29E526AD00078551 /* OpenDyslexic-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Italic.otf"; sourceTree = "<group>"; };
+		8A8DFA5E29E526AD00078551 /* OpenDyslexic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Regular.otf"; sourceTree = "<group>"; };
+		8A8DFA6329E5276600078551 /* design-system-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "design-system-Info.plist"; sourceTree = "<group>"; };
+		8A8DFA6429E52C5F00078551 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		8A8DFA6629E5967C00078551 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		8A8DFA6829E5C6A100078551 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		8A8DFA6A29E89D4F00078551 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		8A92957A29E397E4000F0E7C /* design-system.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "design-system.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A92957D29E397E4000F0E7C /* design_systemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = design_systemApp.swift; sourceTree = "<group>"; };
 		8A92957F29E397E4000F0E7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +63,7 @@
 		8A8DFA5029E5117A00078551 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				8A8DFA5829E5236400078551 /* Modifiers */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -51,6 +71,7 @@
 		8A8DFA5129E5117F00078551 /* Textfields */ = {
 			isa = PBXGroup;
 			children = (
+				8A8DFA6629E5967C00078551 /* Input.swift */,
 			);
 			path = Textfields;
 			sourceTree = "<group>";
@@ -67,6 +88,11 @@
 		8A8DFA5429E511AF00078551 /* Text */ = {
 			isa = PBXGroup;
 			children = (
+				8A8DFA5C29E526AC00078551 /* OpenDyslexic-Bold.otf */,
+				8A8DFA5B29E526AC00078551 /* OpenDyslexic-BoldItalic.otf */,
+				8A8DFA5D29E526AD00078551 /* OpenDyslexic-Italic.otf */,
+				8A8DFA5E29E526AD00078551 /* OpenDyslexic-Regular.otf */,
+				8A8DFA6A29E89D4F00078551 /* Typography.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -78,9 +104,20 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		8A8DFA5829E5236400078551 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8A8DFA5929E5237800078551 /* PrimaryButton.swift */,
+				8A8DFA6429E52C5F00078551 /* SecondaryButton.swift */,
+				8A8DFA6829E5C6A100078551 /* MenuButton.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		8A92957129E397E4000F0E7C = {
 			isa = PBXGroup;
 			children = (
+				8A8DFA6329E5276600078551 /* design-system-Info.plist */,
 				8A8DFA5329E511A900078551 /* DesignTokens */,
 				8A8DFA4F29E5117400078551 /* Components */,
 				8A92958B29E3999E000F0E7C /* Packages */,
@@ -181,8 +218,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8DFA6129E526AD00078551 /* OpenDyslexic-Italic.otf in Resources */,
 				8A92958529E397E5000F0E7C /* Preview Assets.xcassets in Resources */,
+				8A8DFA6029E526AD00078551 /* OpenDyslexic-Bold.otf in Resources */,
+				8A8DFA6229E526AD00078551 /* OpenDyslexic-Regular.otf in Resources */,
 				8A92958229E397E5000F0E7C /* Assets.xcassets in Resources */,
+				8A8DFA5F29E526AD00078551 /* OpenDyslexic-BoldItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8DFA6B29E89D4F00078551 /* Typography.swift in Sources */,
+				8A8DFA6729E5967C00078551 /* Input.swift in Sources */,
+				8A8DFA6529E52C5F00078551 /* SecondaryButton.swift in Sources */,
+				8A8DFA6929E5C6A100078551 /* MenuButton.swift in Sources */,
+				8A8DFA5A29E5237800078551 /* PrimaryButton.swift in Sources */,
 				8A92958029E397E4000F0E7C /* ContentView.swift in Sources */,
 				8A92957E29E397E4000F0E7C /* design_systemApp.swift in Sources */,
 			);
@@ -322,10 +368,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"design-system/Preview Content\"";
 				DEVELOPMENT_TEAM = Q7BEAG244J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "design-system-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,10 +398,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"design-system/Preview Content\"";
 				DEVELOPMENT_TEAM = Q7BEAG244J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "design-system-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
