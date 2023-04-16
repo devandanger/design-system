@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct MenuButton: View {
+    let label: String
     let action: () -> ()
     init(
+        label: String,
         action: @escaping () -> Void
     ) {
+        self.label = label
         self.action = action
     }
     var body: some View {
@@ -19,7 +22,7 @@ struct MenuButton: View {
             action()
         } label: {
             HStack {
-                Text("Menu")
+                Text(label)
                 Spacer()
             }
         }
@@ -44,12 +47,12 @@ struct MenuButton_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
             VStack(spacing: 0) {
-                MenuButton(action: {
+                MenuButton(label: "Menu") {
                     
-                })
-                MenuButton(action: {
+                }
+                MenuButton(label: "Menu") {
                     
-                })
+                }
                 Spacer()
             }
             .padding([.top], 10)

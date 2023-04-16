@@ -10,12 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            MenuButton(label: "Buttons") {
+                
+            }
             Button("Hello There") {
                 
             }
             .buttonStyle(PrimaryButton())
         }
-        .padding()
     }
 }
 
