@@ -9,14 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            MenuButton(label: "Buttons") {
-                
+        NavigationStack {
+            VStack(spacing: 0) {
+                MenuLink(label: "Menus") {
+                    MenuButton_Previews.previews
+                }
+                MenuLink(label: "Buttons") {
+                    VStack(spacing: 0) {
+                        Buttons_Previews.previews
+                        SecondaryButton_Previews.previews
+                    }
+                    
+                }
+                MenuLink(label: "Inputs") {
+                    Input_Previews.previews
+                }
+                Spacer()
             }
-            Button("Hello There") {
-                
-            }
-            .buttonStyle(PrimaryButton())
         }
     }
 }

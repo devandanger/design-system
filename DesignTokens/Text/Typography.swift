@@ -11,6 +11,14 @@ import SwiftUI
 extension View {
     func title() -> some View {
         self
-            .font(.custom("OpenDyslexic-Regular", size: 24))
+            .font(.custom("OpenDyslexic-Bold", size: 24))
+    }
+    func title2() -> some View {
+        self
+            .font(.custom("OpenDyslexic-Bold", size: 20))
+    }
+    func title3() -> some View {
+        self
+            .font(.custom("OpenDyslexic-Regular", size: 16))
     }
 }

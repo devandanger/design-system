@@ -7,6 +7,31 @@
 
 import SwiftUI
 
+struct MenuLink<Content>: View where Content: View {
+    let label: String
+    let destination: () -> Content
+    
+    init(
+        label: String,
+        @ViewBuilder destination: @escaping () -> Content
+    ) {
+        self.label = label
+        self.destination = destination
+    }
+    
+    var body: some View {
+        NavigationLink(
+            destination: destination,
+            label: {
+                HStack {
+                    Text(label)
+                    Spacer()
+                }
+        })
+        .buttonStyle(MenuButtonStyle())
+    }
+}
+
 struct MenuButton: View {
     let label: String
     let action: () -> ()
@@ -50,8 +75,8 @@ struct MenuButton_Previews: PreviewProvider {
                 MenuButton(label: "Menu") {
                     
                 }
-                MenuButton(label: "Menu") {
-                    
+                MenuLink(label: "Menu") {
+                    EmptyView()
                 }
                 Spacer()
             }

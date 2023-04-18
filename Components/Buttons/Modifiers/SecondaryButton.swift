@@ -55,11 +55,7 @@ struct SecondaryButton_Previews: PreviewProvider {
             Button {
                 
             } label: {
-                Text("Hello")
-            }
-            .buttonStyle(SecondaryButton())
-            Button("This is a long sentence") {
-                
+                Text("Fit to Text")
             }
             .buttonStyle(SecondaryButton())
             Button("Fit to Screen") {
@@ -68,6 +64,6 @@ struct SecondaryButton_Previews: PreviewProvider {
             .buttonStyle(SecondaryButton(sizing: .fitScreen))
             Spacer()
         }
-        .padding(10)
+        .padding([.leading, .trailing], 10)
     }
 }

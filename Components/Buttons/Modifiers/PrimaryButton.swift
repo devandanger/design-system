@@ -43,26 +43,24 @@ struct PrimaryButton: ButtonStyle {
     }
 }
 
-struct PrimaryButton_Previews: PreviewProvider {
+struct Buttons_Previews: PreviewProvider {
     static var previews: some View {
-        VStack {
-            Button {
-                
-            } label: {
-                Text("Hello")
+        NavigationStack {
+            VStack {
+                Button {
+                    
+                } label: {
+                    Text("Fit to Text")
+                }
+                .buttonStyle(PrimaryButton())
+                Button("Fit to Screen") {
+                    
+                }
+                .buttonStyle(PrimaryButton(sizing: .fitScreen))
+                Spacer()
             }
-            .buttonStyle(PrimaryButton())
-            Button("This is a long sentence") {
-                
-            }
-            .buttonStyle(PrimaryButton())
-            Button("Fit to Screen") {
-                
-            }
-            .buttonStyle(PrimaryButton(sizing: .fitScreen))
-            
-            Spacer()
+            .navigationTitle("Buttons")
+            .padding([.leading, .trailing], 10)
         }
-        .padding(10)
     }
 }
