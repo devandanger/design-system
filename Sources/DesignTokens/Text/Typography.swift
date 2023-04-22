@@ -21,4 +21,9 @@ extension View {
         self
             .font(.custom("OpenDyslexic-Regular", size: 16))
     }
+    
+    func bodyCopy() -> some View {
+        self
+            .font(.custom("OpenDyslexic-Regular", size: 12))
+    }
 }

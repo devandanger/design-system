@@ -18,6 +18,7 @@ struct ContentView: View {
                     VStack(spacing: 0) {
                         Buttons_Previews.previews
                         SecondaryButton_Previews.previews
+                        QuadButtonCollection_Previews.previews
                     }
                     
                 }

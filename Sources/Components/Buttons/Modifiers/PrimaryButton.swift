@@ -23,7 +23,7 @@ struct PrimaryButton: ButtonStyle {
             configuration
                 .label
                 .padding()
-                .background(Color("Accent"))
+                .background(Color("Accent").brightness(configuration.isPressed ? -0.15 : 0.0))
                 .foregroundColor(.white)
                 .cornerRadius(15)
                 .font(.custom("OpenDyslexic-Bold", size: 24))
@@ -33,7 +33,7 @@ struct PrimaryButton: ButtonStyle {
                 .label
                 .frame(maxWidth: .infinity)
                 .padding()
-                .background(Color("Accent"))
+                .background(Color("Accent").brightness(configuration.isPressed ? -0.15 : 0.0))
                 .foregroundColor(.white)
                 .cornerRadius(15)
                 .font(.custom("OpenDyslexic-Bold", size: 24))

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4FCAA629EF9BFB0059CC24 /* QuadButtonCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4FCAA529EF9BFB0059CC24 /* QuadButtonCollection.swift */; };
+		8A4FCAA929EFA5B10059CC24 /* ProgressMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4FCAA829EFA5B10059CC24 /* ProgressMeter.swift */; };
+		8A4FCAAB29F223DC0059CC24 /* LargeMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4FCAAA29F223DC0059CC24 /* LargeMenuButton.swift */; };
 		8A8DFA5A29E5237800078551 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DFA5929E5237800078551 /* PrimaryButton.swift */; };
 		8A8DFA5F29E526AD00078551 /* OpenDyslexic-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A8DFA5B29E526AC00078551 /* OpenDyslexic-BoldItalic.otf */; };
 		8A8DFA6029E526AD00078551 /* OpenDyslexic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A8DFA5C29E526AC00078551 /* OpenDyslexic-Bold.otf */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A4FCAA529EF9BFB0059CC24 /* QuadButtonCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadButtonCollection.swift; sourceTree = "<group>"; };
+		8A4FCAA829EFA5B10059CC24 /* ProgressMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressMeter.swift; sourceTree = "<group>"; };
+		8A4FCAAA29F223DC0059CC24 /* LargeMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeMenuButton.swift; sourceTree = "<group>"; };
 		8A8DFA5929E5237800078551 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		8A8DFA5B29E526AC00078551 /* OpenDyslexic-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-BoldItalic.otf"; sourceTree = "<group>"; };
 		8A8DFA5C29E526AC00078551 /* OpenDyslexic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Bold.otf"; sourceTree = "<group>"; };
@@ -51,9 +57,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A4FCAA429EF9BCE0059CC24 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				8A4FCAA529EF9BFB0059CC24 /* QuadButtonCollection.swift */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		8A4FCAA729EFA5A10059CC24 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				8A4FCAA829EFA5B10059CC24 /* ProgressMeter.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		8A4FCAAC29F40E8D0059CC24 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8A8DFA4F29E5117400078551 /* Components */,
+				8A8DFA5329E511A900078551 /* DesignTokens */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		8A8DFA4F29E5117400078551 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8A4FCAA729EFA5A10059CC24 /* Progress */,
 				8A8DFA5129E5117F00078551 /* Textfields */,
 				8A8DFA5029E5117A00078551 /* Buttons */,
 			);
@@ -63,6 +95,7 @@
 		8A8DFA5029E5117A00078551 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				8A4FCAA429EF9BCE0059CC24 /* Collections */,
 				8A8DFA5829E5236400078551 /* Modifiers */,
 			);
 			path = Buttons;
@@ -110,6 +143,7 @@
 				8A8DFA5929E5237800078551 /* PrimaryButton.swift */,
 				8A8DFA6429E52C5F00078551 /* SecondaryButton.swift */,
 				8A8DFA6829E5C6A100078551 /* MenuButton.swift */,
+				8A4FCAAA29F223DC0059CC24 /* LargeMenuButton.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -117,9 +151,8 @@
 		8A92957129E397E4000F0E7C = {
 			isa = PBXGroup;
 			children = (
+				8A4FCAAC29F40E8D0059CC24 /* Sources */,
 				8A8DFA6329E5276600078551 /* design-system-Info.plist */,
-				8A8DFA5329E511A900078551 /* DesignTokens */,
-				8A8DFA4F29E5117400078551 /* Components */,
 				8A92958B29E3999E000F0E7C /* Packages */,
 				8A92957C29E397E4000F0E7C /* Example */,
 				8A92957B29E397E4000F0E7C /* Products */,
@@ -234,12 +267,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4FCAA629EF9BFB0059CC24 /* QuadButtonCollection.swift in Sources */,
 				8A8DFA6B29E89D4F00078551 /* Typography.swift in Sources */,
+				8A4FCAAB29F223DC0059CC24 /* LargeMenuButton.swift in Sources */,
 				8A8DFA6729E5967C00078551 /* Input.swift in Sources */,
 				8A8DFA6529E52C5F00078551 /* SecondaryButton.swift in Sources */,
 				8A8DFA6929E5C6A100078551 /* MenuButton.swift in Sources */,
 				8A8DFA5A29E5237800078551 /* PrimaryButton.swift in Sources */,
 				8A92958029E397E4000F0E7C /* ContentView.swift in Sources */,
+				8A4FCAA929EFA5B10059CC24 /* ProgressMeter.swift in Sources */,
 				8A92957E29E397E4000F0E7C /* design_systemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

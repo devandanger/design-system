@@ -72,10 +72,10 @@ struct MenuButton_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
             VStack(spacing: 0) {
-                MenuButton(label: "Menu") {
+                MenuButton(label: "Menu Button") {
                     
                 }
-                MenuLink(label: "Menu") {
+                MenuLink(label: "Menu Link") {
                     EmptyView()
                 }
                 Spacer()
